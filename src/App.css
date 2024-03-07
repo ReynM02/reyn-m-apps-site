@@ -1,12 +1,29 @@
 :root {
   --grey: #575757;
-  --bg-color: var(--grey);
+  --bg-color: #a4a08e;
+  --nav-color: #787462;
 }
 .App {
   text-align: center;
   background-color: var(--bg-color) ;
+  font: normal openSans;
+}
+.navBar{
+  background-color: var(--nav-color);
 }
 
+.privacy-policy{
+  text-align: start;
+  margin: auto;
+  width: 33vw;
+  padding: 50px;
+}
+.privacy-policy p{
+  color: #fcfaee;
+}
+.privacy-policy h3{
+  color: #fcfaee;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

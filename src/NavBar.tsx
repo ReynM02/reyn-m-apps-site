@@ -5,7 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function NavBar() {
   return (
-    <Navbar bg="dark" data-bs-theme="dark" expand="lg" className="bg-body-tertiary">
+    <Navbar data-bs-theme="dark" expand="lg" className="navBar">
       <Container>
         <Navbar.Brand href="/">ReynMApps</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
